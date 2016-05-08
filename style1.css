@@ -1,0 +1,65 @@
+header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:10px;
+}
+footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:30px;
+}
+section {
+    width:800px;
+    float:left;
+    padding: 30px 30px 30px 80px;
+}
+.mainmenu {
+	border:5px solid white;
+    border-width:1px;
+    margin:0;
+    padding:1;
+    text-align:center;
+}
+.mainmenu ul, .mainmenu li {
+	margin: 0;
+	padding: 0;
+}
+.mainmenu ul {
+	background: #30A6E6;
+}
+.mainmenu li {
+	display:inline;
+}
+.mainmenu a {
+	border:1px solid white;
+	background: #30A6E6;
+	color: #FFFFFF;
+	display: inline-block;
+	font: bold 20px/20px sans-serif;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+}
+.mainmenu li:hover a {
+	background: #000000;
+}
+.leftmenu {
+    /*line-height:30px;*/
+    background-color:#eeeeee;
+    height:300px;
+    width:150px;
+    float:left;
+    padding:15px;
+}
+
+.rightmenu {
+    /*line-height:30px;*/
+    background-color:#eeeeee;
+    height:300px;
+    width:150px;
+    float:right;
+    padding:15px;
+}
